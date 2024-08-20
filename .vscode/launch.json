@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:mitum-swift}",
+            "name": "Debug mitum-swift",
+            "program": "${workspaceFolder:mitum-swift}/.build/debug/mitum-swift",
+            "preLaunchTask": "swift: Build Debug mitum-swift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:mitum-swift}",
+            "name": "Release mitum-swift",
+            "program": "${workspaceFolder:mitum-swift}/.build/release/mitum-swift",
+            "preLaunchTask": "swift: Build Release mitum-swift"
+        }
+    ]
+}
